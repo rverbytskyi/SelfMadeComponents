@@ -1,0 +1,3 @@
+rootProject.name = 'SelfMadeComponents'
+
+include ':app'
