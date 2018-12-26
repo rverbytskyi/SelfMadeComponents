@@ -2,10 +2,18 @@ import React from 'react'
 import {
   View, NetInfo, StatusBar, StyleSheet, Dimensions,
 } from 'react-native'
+import PropTypes from 'prop-types'
 
 const NO_CONNECTION_MARKER = 'none'
 
-export default class AppWrapper extends React.Component {
+export default class ScreenWrapper extends React.Component {
+  static propTypes = {
+    setHeight: PropTypes.func.isRequired,
+    setWidth: PropTypes.func.isRequired,
+    width: PropTypes.number,
+    height: PropTypes.number,
+  }
+
   constructor() {
     super()
     this.state = {
@@ -20,6 +28,11 @@ export default class AppWrapper extends React.Component {
     const { setWidth, setHeight } = this.props
     setWidth(Dimensions.get('window').width)
     setHeight(Dimensions.get('window').height)
+  }
+
+  componentWillUnmount() {
+    NetInfo.removeEventListener('connectionChange', this.netInfoEvent)
+    Dimensions.removeEventListener('change', this.handleRotation)
   }
 
   handleRotation = (dimensions) => {
@@ -42,7 +55,7 @@ export default class AppWrapper extends React.Component {
     const { children } = this.props
     return (
       <View style={styles.container}>
-        <StatusBar barStyle='light-content' translucent backgroundColor='transparent' />
+        <StatusBar barStyle='dark-content' translucent backgroundColor='transparent' />
         {children}
       </View>
     )

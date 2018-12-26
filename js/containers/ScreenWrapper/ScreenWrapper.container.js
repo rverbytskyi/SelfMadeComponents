@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { setUI } from '../../actions/ui'
 
-import AppWrapper from './AppWrapper.component'
+import ScreenWrapper from './ScreenWrapper.component'
 import { disconnected, connected } from '../../actions/network'
 
 function mapStateToProps(state) {
@@ -30,4 +30,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AppWrapper)
+export default connect(mapStateToProps, mapDispatchToProps)(ScreenWrapper)

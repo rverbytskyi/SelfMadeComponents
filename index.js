@@ -1,7 +1,27 @@
-/** @format */
+import {Navigation} from 'react-native-navigation';
+import { registerScreens } from './js/screens';
 
-import { AppRegistry } from 'react-native';
-import App from './js';
-import { name as appName } from './app.json';
+registerScreens();
 
-AppRegistry.registerComponent(appName, () => App);
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setRoot({
+    root: {
+      stack: {
+        children: [
+          {
+            component: {
+              name: 'homeScreen',
+              options: {
+                topBar: {
+                  title: {
+                    text: 'Feel like at home'
+                  }
+                }
+              }
+            }
+          }
+        ],
+      }
+    }
+  })
+})
