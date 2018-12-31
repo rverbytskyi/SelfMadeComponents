@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Subtitle component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 3`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 4`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      null,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 5`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      55,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 6`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 7`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        null,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 8`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        55,
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 9`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 5,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 22,
+        },
+        Object {},
+      ]
+    }
+  >
+    asd
+  </Text>
+</View>
+`;

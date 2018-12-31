@@ -6,17 +6,21 @@ import { styleSheet } from '../../utils/commonPropTypes'
 
 class SubTitle extends React.PureComponent {
   static propTypes = {
-    subTitle: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
     containerStyle: styleSheet,
-    subTitleStyle: styleSheet,
+    subtitleStyle: styleSheet,
+  }
+
+  static defaultProps = {
+    subtitle: '',
   }
 
   render() {
-    const { subTitle, containerStyle, subTitleStyle } = this.props
+    const { subtitle, containerStyle, subtitleStyle } = this.props
     return (
       <View style={containerStyle}>
-        <Text style={subTitleStyle}>
-          {subTitle}
+        <Text style={subtitleStyle}>
+          {subtitle}
         </Text>
       </View>
     )

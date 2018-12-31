@@ -16,8 +16,8 @@ class Home extends React.Component {
     return (
       <View style={styles.container}>
         <Title title='Home screen' />
-        <SubTitle subTitle={`Height is ${height}`} />
-        <SubTitle subTitle={`Width is ${width}`} />
+        <SubTitle subtitle={`Height is ${height}`} />
+        <SubTitle subtitle={`Width is ${width}`} />
       </View>
     )
   }

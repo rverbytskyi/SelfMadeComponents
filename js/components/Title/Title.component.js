@@ -12,6 +12,10 @@ class Title extends React.PureComponent {
     titleStyle: styleSheet,
   }
 
+  static defaultProps = {
+    title: '',
+  }
+
   render() {
     const { title, containerStyle, titleStyle } = this.props
     return (

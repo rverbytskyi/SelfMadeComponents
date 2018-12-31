@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Subtitle component renders correctly 1`] = `
+<View>
+  <Text />
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 2`] = `
+<View>
+  <Text />
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 3`] = `
+<View>
+  <Text>
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 4`] = `
+<View
+  style={null}
+>
+  <Text>
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 5`] = `
+<View
+  style={55}
+>
+  <Text>
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 6`] = `
+<View
+  style={Object {}}
+>
+  <Text>
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 7`] = `
+<View
+  style={Object {}}
+>
+  <Text
+    style={null}
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 8`] = `
+<View
+  style={Object {}}
+>
+  <Text
+    style={55}
+  >
+    asd
+  </Text>
+</View>
+`;
+
+exports[`Testing Subtitle component renders correctly 9`] = `
+<View
+  style={Object {}}
+>
+  <Text
+    style={Object {}}
+  >
+    asd
+  </Text>
+</View>
+`;
